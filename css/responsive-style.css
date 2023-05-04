@@ -1,0 +1,172 @@
+/* <!--===============
+Responsive Design===
+==============--> */
+@media (max-width:1024px) {
+
+    /* about section */
+    
+}
+
+
+
+
+
+@media (max-width: 950px) {
+
+    /*custom classes  */
+    .text-content{
+        width:100%;
+    }
+     
+
+    /* navbar brand */
+    .navigation-wrap .navbar-brand img{
+        
+    }
+    .navigation-wrap{
+        text-align: center;
+        background-color: var(--white-color);
+    }
+    .navigation-wrap .nav-link{
+        line-height: 1.875rem;
+    }
+    /* Banner Design */
+
+    
+    .top-banner {
+        /* padding: 12rem ; */
+        height: 100vh;
+        background-size: contain;
+        margin-bottom: 0;
+      }
+      .top-banner .heading{
+        margin-bottom: -3px;
+        font-size:xx-large;
+      }
+      .top-banner .about-us {
+        line-height: 1.3rem;
+        min-height: 300px;
+        font-size: medium;
+        text-align: left;
+      }
+
+      .top-banner .main-btn{
+        padding: 6px;
+      }
+
+      .top-banner .about-us ::first-letter{
+        font-size: 2rem;
+      }
+    
+
+    /* carousel design */
+    .testimonial-section .carousel-item .carousel-caption p{
+        padding:0;
+    }
+     
+}
+
+
+
+
+
+
+@media ( max-width: 767px) {
+
+    /* custom css */
+    h1{
+        font-size:2.2rem;
+    }
+    h2{
+        font-size:2rem;
+        line-height: 2.0625rem;
+    }
+     
+
+    /* top banner */
+    .top-banner {
+        /* padding: 12rem ; */
+        /* height: 90vh; */
+        /* padding-top: -12rem; */
+        background-size: contain;
+        margin-bottom: -225px;
+      }
+      .top-banner .heading{
+        /* padding-top: 40px; */
+        max-width: 400px;
+        /* margin-bottom: -2px; */
+        font-size: 1.6rem
+      }
+      .top-banner .about-us {
+        display: none;
+        
+      }
+    
+
+
+
+
+    
+
+    /* story section */
+    .story-section{
+        height:auto;
+        padding:3rem 0;
+    }
+    
+
+    /* carousel design */
+    .testimonial-section .carousel-item{
+        padding:11rem 3.125rem;
+    }
+
+    /* newslettar */
+    .newsletter{
+        width:75%;
+    }
+    .newsletter .main-btn{
+        width:100%;
+        margin-top:1rem;
+    }
+    .top-banner .main-btn{
+        padding: 3px;
+
+    }
+
+    /* footer link */
+    .footer .footer-link,
+    .footer a i{
+        padding:0 0.7rem;
+    }
+     
+}
+
+@media (max-width:390px) {
+
+    /* carousel design */
+    .testimonial-section .carousel-item{
+        padding:13rem 3.125rem;
+    }
+
+    /* top banner */
+    .top-banner {
+        /* padding: 12rem ; */
+        height: 90vh;
+        /* padding-top: -12rem; */
+        background-size: contain;
+        margin-bottom: -225px;
+      }
+      .top-banner .heading{
+        /* padding-top: 40px; */
+        max-width: 400px;
+        /* margin-bottom: -2px; */
+        font-size: 1.6rem
+      }
+      .top-banner .about-us {
+        display: none;
+        
+      }
+     
+}
+        
+      
